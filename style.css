@@ -1,0 +1,35 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.bodies{
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    border-radius: 10px;
+    position: relative;
+}
+
+.card{
+    margin: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(51, 95, 175);
+    height:420px;
+    width: 320px;
+    border: 10px solid rgb(51, 85, 196) ;
+    justify-content:space-around;
+    align-items: center;
+    border-radius: 10px;
+}
+
+
+.changing{
+    position: relative;
+    display: flex;
+    justify-content:space-between;
+
+    
+}
