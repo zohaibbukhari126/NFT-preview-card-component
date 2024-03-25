@@ -2,9 +2,16 @@
     padding: 0px;
     margin: 0px;
 }
+body, html {
+    height: 100%;
+    background-color: #0d1a2d;
+}
+
 .bodies{
     justify-content: center;
     align-items: center;
+    display: flex;
+    height: 100%;
 }
 
 img{
@@ -16,20 +23,31 @@ img{
     margin: 1;
     display: flex;
     flex-direction: column;
-    background-color: rgb(51, 95, 175);
+    background-color: #15273f;
     height:420px;
-    width: 320px;
-    border: 10px solid rgb(51, 85, 196) ;
+    width: 300px;
+    border: 20px solid #15273f ;
     justify-content:space-around;
-    align-items: center;
+    align-items: left;
     border-radius: 10px;
+    
+}
+
+.card h1{
+    color: white
+}
+
+.card h2{
+    color: #5f7897;
+
 }
 
 
+
 .changing{
-    position: relative;
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
+    width: 90%
 
     
 }
